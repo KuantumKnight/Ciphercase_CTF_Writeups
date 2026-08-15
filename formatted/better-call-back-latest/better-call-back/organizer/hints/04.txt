@@ -1,0 +1,2 @@
+You need the admin's code, but the Portal's state must come from your own
+browser session. A mailbox can collect the callback for you.

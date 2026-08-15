@@ -1,0 +1,9 @@
+# Generator/verifier dependencies:
+Pillow>=10
+qrcode>=7
+
+# Optional player tools:
+#   file
+#   pngcheck
+#   binwalk
+#   unzip / zipinfo

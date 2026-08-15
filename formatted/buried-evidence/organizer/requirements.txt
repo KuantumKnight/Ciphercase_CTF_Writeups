@@ -1,0 +1,25 @@
+Buried Evidence — Requirements
+==============================
+
+Player/runtime requirements
+---------------------------
+
+- The supplied camera_sd.img artifact.
+- Sleuth Kit: mmls, fls, and icat.
+- ExifTool for JPEG metadata and embedded-thumbnail extraction.
+- 7-Zip for testing and extracting the recovered archive.
+- Standard shell tools such as awk, grep, file, strings, and cmp.
+- No root privileges or writable loop mount are required for the intended solve.
+
+Author/generator requirements
+-----------------------------
+
+- Python 3.
+- ImageMagick, providing convert and identify.
+- ExifTool.
+- 7-Zip.
+- Sleuth Kit is useful for verification but is not required by the generator.
+
+The generator creates a 128 MiB raw MBR/FAT32 image without mounting it. The
+two evidence files are allocated, then their directory entries are marked
+deleted and their FAT chains are released, leaving their data recoverable.

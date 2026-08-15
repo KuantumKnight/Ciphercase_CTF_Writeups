@@ -1,0 +1,28 @@
+# THE FIFTH NAME
+
+**Category:** AI / Model Inversion / ML Reverse Engineering
+**Difficulty:** Medium / Hard
+
+The DEA pulled one last artifact from a dead Madrigal workstation: an identity model that was never supposed to leave the lab.
+
+Its documentation is boring enough.
+
+Four identities.
+Four known targets.
+
+`Walter`
+`Jesse`
+`Gus`
+`Mike`
+
+Except the model has **five outputs**.
+
+There is no record of the fifth class. No sample belonging to it. No label explaining who—or what—it represents.
+
+All you have is the recovered ONNX model, one sample input, and a local runner.
+
+The model already knows the answer.
+
+**Make it say his name.**
+
+Flag format: `CYS{...}`

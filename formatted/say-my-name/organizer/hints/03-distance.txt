@@ -1,0 +1,1 @@
+The auxiliary branch compares the shared representation with a stored vector. What input would minimize the distance?

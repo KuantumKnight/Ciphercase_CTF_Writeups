@@ -1,0 +1,2 @@
+OAuth authorization codes are delivered to redirect_uri. Ask whether the IdP
+really verifies that the callback belongs to the registered client.

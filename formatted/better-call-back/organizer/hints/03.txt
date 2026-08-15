@@ -1,0 +1,2 @@
+The IdP uses a string check on the callback. In a URL, the text before @ is
+userinfo; it is not the destination host.

@@ -1,0 +1,27 @@
+Buried Evidence — Progressive Hints
+====================================
+
+Hint 1
+------
+Treat camera_sd.img as a raw disk image. Determine its partition offset and
+list the filesystem without mounting it read/write.
+
+Hint 2
+------
+Use a recursive Sleuth Kit listing. Deleted directory entries are marked with
+an asterisk.
+
+Hint 3
+------
+One deleted file is a JPEG. Compare its visible frame with its EXIF metadata
+and embedded thumbnail.
+
+Hint 4
+------
+The thumbnail supplies a device, lot, and evidence identifier. The live
+SYSTEM configuration explains how those values combine with the camera time.
+
+Hint 5
+------
+The other deleted file is an encrypted 7z archive. Use the archive scheme from
+CONFIG.TXT to derive its password.

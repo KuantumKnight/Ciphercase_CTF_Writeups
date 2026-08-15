@@ -1,0 +1,1 @@
+The branch contains `tanh(Ax + b)`. `tanh` is invertible on the values used here. Apply `arctanh`, then solve the resulting overdetermined linear system by least squares.

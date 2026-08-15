@@ -1,0 +1,2 @@
+If an extracted artifact asks for a password, the image may contain the key.
+Inspect RGB channels and individual bit planes, not just strings.

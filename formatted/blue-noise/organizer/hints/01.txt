@@ -1,0 +1,2 @@
+The picture is not the whole file. Check both the image structure and anything
+that follows its normal end marker.

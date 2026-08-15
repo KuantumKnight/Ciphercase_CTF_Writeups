@@ -1,0 +1,2 @@
+The obvious hidden route is not the objective. Read the player-facing goal
+literally, then inspect the normal sign-in redirect.

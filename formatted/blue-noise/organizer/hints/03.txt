@@ -1,0 +1,2 @@
+The useful plane is blue channel, bit 2. It reveals a QR code; the QR result
+is the password for the archive appended after the PNG IEND chunk.
